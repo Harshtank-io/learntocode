@@ -116,25 +116,38 @@
             <h1>Hi! i am Lines of Binary </h1>
             <h3>This is my first website as project.
                 i am currently 2nd year computer Science.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis repellat quaerat assumenda exercitationem. Numquam voluptatum expedita, magnam assumenda itaque eaque vel. Possimus amet consectetur numquam voluptatum aliquid iste quidem aspernatur.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis repellat quaerat assumenda exercitationem. Numquam voluptatum expedita, magnam assumenda itaque eaque vel.
             </h3>
     </div>
 </section>
 <section class="contact" id="contact">
     <h1>Contact</h1>
-    <form action="/" class="decor">
-        <div class="form-left-decoration"></div>
-        <div class="form-right-decoration"></div>
-        <div class="circle"></div>
-        <div class="form-inner">
-          <h1>Contact us</h1>
-          <input type="text" placeholder="Username">
-          <input type="email" placeholder="Email">
-          <textarea placeholder="Message..." rows="5"></textarea>
-          <button type="submit" href="/">Submit</button>
+
+      <section class="section2"> 
+        <div class="contactform">
+        <h5>Drop us a line...</h5>
+          <form action="#">
+            <label for="firstname">
+          
+              <input name="firstname" class="form-fields" placeholder="firstname"type="text">
+            </label>
+            <label for="email">
+              <input name="email" class="form-fields" placeholder="email" type="text">
+            </label>
+            <label for="contact">
+              
+              <input name="contact" class="form-fields" placeholder="contact"type="text">
+            </label>
+            <label for="textarea">
+              
+              <textarea class="form-fields" name="textarea" id=""placeholder="comment" cols="30" rows="10"></textarea>
+            </label>
+            <button class="form-fields button" value="Send" type="submit">Send <i class="fa fa-paper-plane"></i></button>
+          </form>
         </div>
-      </form>
-  
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div class="contmap" style='overflow:hidden;height:550px;width:100%;'><div id='gmap_canvas' style='height:100%;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(19.075314480255834,72.88153973865361),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.075314480255834,72.88153973865361)});infowindow = new google.maps.InfoWindow({content:'<strong>My Location</strong><br>mumbai<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+      </section>
+    </div>
 </section>
 <footer class="site-footer">
     <div class="container">
